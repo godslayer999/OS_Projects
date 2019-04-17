@@ -116,10 +116,12 @@ int main()
 
       	printf("\nPID\tBurst Time\t Turnaround Time\t Waiting Time\t Priority\n");
 	for(total = 0, i = limit-1; x != 0;){
-		printf("\n");
+		//BELOW CODE SNIPET ONLY FOR TESTING PURPOSE
+		/*printf("\n");
 		for(int k=0; k < limit; k++){
 		printf("'%d'%d \t %d \t", p[k], prio[k], temp[k]);
-		}printf("\n");
+		}printf("\n");*/
+		
 		//For sorting processes based on the priority of the processes.
 		sort_prior();
 
